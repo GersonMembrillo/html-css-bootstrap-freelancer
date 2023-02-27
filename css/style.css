@@ -35,3 +35,7 @@ body{
 img{
   width: 100%;
 }
+
+#top-footer .container span{
+  color: var(--hero);
+}
