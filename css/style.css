@@ -1,0 +1,37 @@
+:root{
+  --nav: #2C3E50;
+    --hero: #1ABC9C;
+    --main: #FFFFFF;
+    --footer: #3A546D;
+    --window-one: #BA4B63;
+    --window-two: #1EA4B6;
+    --window-three: #140F0F;
+    --window-four: #1C83C1;
+    --window-five: #0E38B5;
+    --window-six: #CCB2A3;
+}
+
+header, #bot-footer{
+  background-color: var(--nav);
+}
+
+#hero, #about{
+  background-color: var(--hero);
+}
+
+#portfolio, #contact{
+  background-color: var(--main);
+  color: var(--window-three);
+}
+
+#top-footer{
+  background-color: var(--footer);
+}
+
+body{
+  color: var(--main);
+}
+
+img{
+  width: 100%;
+}
