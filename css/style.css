@@ -3,16 +3,12 @@
     --hero: #1ABC9C;
     --main: #FFFFFF;
     --footer: #3A546D;
-    --window-one: #BA4B63;
-    --window-two: #1EA4B6;
-    --window-three: #140F0F;
-    --window-four: #1C83C1;
-    --window-five: #0E38B5;
-    --window-six: #CCB2A3;
+    --dark-color: #140F0F;
 }
 
 header, #bot-footer{
   background-color: var(--nav);
+  color: var(--main);
 }
 
 #hero, #about{
@@ -21,7 +17,7 @@ header, #bot-footer{
 
 #portfolio, #contact{
   background-color: var(--main);
-  color: var(--window-three);
+  color: var(--dark-color);
 }
 
 #top-footer{
@@ -30,6 +26,10 @@ header, #bot-footer{
 
 body{
   color: var(--main);
+}
+
+#mynav a:hover{
+  color: var(--hero);
 }
 
 img{
@@ -78,7 +78,7 @@ background-color: white;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
+  rig
   color: white;
   background-color: rgba(26, 188, 156, 0.7);
   opacity: 0;
